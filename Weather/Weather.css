@@ -1,0 +1,88 @@
+/*create weather.css*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('sunset.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 400px;
+    margin: 100px auto; /* Center the container vertically */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .input:focus {
+    outline: none;
+    transform: scale(1.05);
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+  }
+  
+  .error {
+    color: #e74c3c;
+    margin-top: 10px;
+  }
+  
+  .weather-info {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .city {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .temp, .description, .humidity, .wind {
+    margin: 5px 0;
+  }
+  
+  .temp {
+    font-size: 1.2em;
+  }
+  

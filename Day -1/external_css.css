@@ -1,0 +1,30 @@
+h1 {
+    color: darkred;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color: darkgreen;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    color: darkblue;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4 {
+    color: darkorange;
+    font-size: 24px;
+    font-family: Georgia, serif;
+}
+h5 {
+    color: darkpurple;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+h6 {
+    color: darkbrown;
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+}
